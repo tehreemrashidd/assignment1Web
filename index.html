@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form</title>
+    <style>
+        body{
+            background-color: rgb(241, 237, 237);
+        }
+        div{
+           
+        padding: 100px;  
+        background-color: rgb(97, 167, 190); 
+        margin :20px ;
+  
+        }
+        hr{
+           
+            border: 2px solid black;
+            margin-top: 10px;
+            margin-bottom: 35px;
+        }
+        input[type=submit]{
+           
+            height: 30px;
+            margin-left: 200px;
+            background-color: rgb(159, 159, 248);
+            border:  1px solid black;
+        }
+       
+    </style>
+</head>
+<body>
+  <div> <form>
+        <center><h1 > Registration form</h1></center><br>
+        <hr>
+
+        <b><label style="padding-right: 56px;"> First Name</label></b>
+        <input type="text" name="FirstName" maxlength="8"> <br>
+
+        <b><br><label style="padding-right: 57px;" > Last Name</label></b>
+        <input type="text" name="Lastname" maxlength="8"> <br><br>
+
+         <b><label style="padding-right: 36px;">Date of Birth:</label></b>
+         <input type="date" id="birthday" name="birthday"> <br><br>
+
+        <b><label style="padding-right: 90px"> Email </label>   </b>
+        <input type="email" email="Myemail" minlength="10" maxlength="25">
+        <br> 
+        <br> <label style="padding-right: 59px;"><b>Password:  </b></label><input type="Password" id="pass" name="pass"> <br>   
+        <br> 
+         <label style="padding-right: 2px;"><b> Re-type password:  </b></label>
+        <input type="Password" id="repass" name="repass"> <br> <br>  
+
+    <b> <p>Gender</p></b>
+        <input type="radio" name="Female" id="F"; >
+        <label for="F">female</label><br/>
+
+        <input type="radio" name="male" id="M">
+        <label for="male">male</label><br>
+
+        <input type="radio" name="others" id="O">
+        <label for="O">Others</label> <br>
+
+        <br><label style="padding-right:0px" > <b>English proficiency</b></label>
+        <input list="Datalist" name="data" id="data">
+        <datalist id="Datalist" >
+            <option value="Good">
+            <option value="better">
+            <option value="best">               
+       
+          </datalist><br>
+          
+        <br><label style="padding-right: 64px;">   
+           <b> Country :  </b>
+            </label>   
+            <select>  
+            <option value="C">Select </option>  
+            <option value="A">Australia</option>  
+            <option value="B">Bahrain</option>  
+            <option value="can">Canada</option>  
+            <option value="E">England</option>  
+            <option value="F">Finland</option>  
+            <option value="G">Germany</option>  
+            <option value="P">Pakistan</option>  
+            </select> <br>
+            
+           <br><label style="padding-right: 20px"> <b>Favourite Color</b></label>
+           <input type="color" name="color" id="b" value=#000022>
+           
+            
+            <br><br><label style="padding-right:58px"><b> Reset data </b></label><input type="reset" value="reset">
+            <p><b>Are you under 18</b></p>
+            Yes <input type="checkbox" name="yes" id="Y">
+            No <input type="checkbox" name="no" id="N"><br></br>
+           <input type="submit" value="submit now"> 
+    
+    </form></div> 
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
